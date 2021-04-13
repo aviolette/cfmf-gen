@@ -1,0 +1,11 @@
+GCMLincolnPark:
+  name: Green City Market - Lincoln Park
+  location:
+    address: 1817 North Clark, Chicago, IL
+    latitude: 41.9151897
+    longitude: -87.6338762
+  url: https://www.greencitymarket.org/markets/LincolnPark.asp
+  datePatterns:
+    - every Wednesday from 0700 to 1300, 2021-05-01 through 2021-10-31
+    - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
+
