@@ -1,3 +1,4 @@
+# Chicago Farmers Markets
 GCMLincolnPark:
   name: Green City Market - Lincoln Park
   location:
@@ -8,4 +9,22 @@ GCMLincolnPark:
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
-
+# Suburban Farmers Markets
+LakeZurich:
+  name: Lake Zurich Farmers Market
+  location:
+    address: 200 S Rand Road, Lake Zurich, IL 60047
+    latitude: 42.1952813
+    longitude: -88.1101691
+  url: https://www.lakezurich.org/366/Farmers-Market
+  datePatterns:
+    - every Friday from 1500 to 1900, 2021-06-04 through 2021-09-10
+SchaumburgFarmersMarket:
+  name: Schaumburg Farmers Market
+  location:
+    address: 190 S. Roselle Road, Schaumburg, IL
+    latitude: 42.0253438
+    longitude: -88.0805137
+  url: https://www.villageofschaumburg.com/our-village/farmers-market
+  datePatterns:
+    - every Friday from 0700 to 1300, 2021-06-04 through 2021-10-31

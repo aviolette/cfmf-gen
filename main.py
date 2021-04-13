@@ -110,4 +110,4 @@ def main(season_file, output_directory):
 
 
 if __name__ == "__main__":
-    main("2021season.yaml", "/Users/andrewviolette/dev/cfmf-sapper/static/dates/2021")
+    main("2021season.yaml", "/Users/andrewviolette/dev/cfmf-sapper/static/dates")
