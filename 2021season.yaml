@@ -10,6 +10,15 @@ GCMLincolnPark:
     - every Wednesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
 # Suburban Farmers Markets
+HighwoodEveningMarket:
+  name: Highwood Evening Gourmet Market
+  location:
+    address: Highwood Events Park
+    latitude: 42.2030182
+    longitude: -87.8138266
+  url: https://www.celebratehighwood.org/highwood-evening-gourmet-market/
+  datePatterns:
+    - every Wednesday from 1630 to 2130, 2021-07-07 through 2021-09-22
 LakeZurich:
   name: Lake Zurich Farmers Market
   location:
