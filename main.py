@@ -101,6 +101,8 @@ def main(season_file, output_directory):
             for entry in entries:
                 v["startTime"] = entry.start_time.strftime("%H%M")
                 v["endTime"] = entry.end_time.strftime("%H%M")
+                v["startTimeReadable"] = entry.start_time.strftime("%I:%M %p")
+                v["endTimeReadable"] = entry.end_time.strftime("%I:%M %p")
                 day_dict[str(entry.date())].append(v)
 
     for the_date, items in day_dict.items():
