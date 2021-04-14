@@ -10,6 +10,15 @@ GCMLincolnPark:
     - every Wednesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
 # Suburban Farmers Markets
+BarringtonFarmersMarket:
+  name: Barrington Farmers Market
+  location:
+    address: Park and Cook Street, Barrington, IL
+    latitude: 42.1526391
+    longitude: -88.1355781
+  url: https://barringtonfarmersmarket.com/
+  datePatterns:
+    - every Thursday from 1500 to 1900, 2021-06-17 through 2021-10-21
 HighwoodEveningMarket:
   name: Highwood Evening Gourmet Market
   location:
