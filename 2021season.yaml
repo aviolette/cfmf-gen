@@ -9,6 +9,16 @@ GCMLincolnPark:
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
+LincolnSquareFarmersMarket:
+  name: Lincoln Square Farmers Market
+  location:
+    address: Lincoln and Leland, Chicago, IL
+    latitude: 41.96687
+    longitude: -87.687399
+  url: http://www.lincolnsquare.org/farmers-market
+  datePatterns:
+    - every Tuesday from 0700 to 1300, 2021-05-01 through 2021-10-31
+    - every Thursday from 1500 to 1900, 2021-05-01 through 2021-10-31
 # Suburban Farmers Markets
 BarringtonFarmersMarket:
   name: Barrington Farmers Market
@@ -19,6 +29,15 @@ BarringtonFarmersMarket:
   url: https://barringtonfarmersmarket.com/
   datePatterns:
     - every Thursday from 1500 to 1900, 2021-06-17 through 2021-10-21
+DarienFarmersMarket:
+  name: Darien Farmers Market
+  location:
+    address: 7100 Claredon Hills Road, Darien, IL
+    latitude: 41.7594159
+    longitude: -87.9569396
+  url: https://nfmd.org/il/darien/1009648/
+  datePatterns:
+    - every Wednesday from 1500 to 1900, 2021-06-01 through 2021-10-31
 HighwoodEveningMarket:
   name: Highwood Evening Gourmet Market
   location:
@@ -37,6 +56,33 @@ LakeZurich:
   url: https://www.lakezurich.org/366/Farmers-Market
   datePatterns:
     - every Friday from 1500 to 1900, 2021-06-04 through 2021-09-10
+PalosHeights:
+  name: Palos Heights Farmers Market
+  location:
+    address: 122nd and Harlem Avenue, Palos Heights, IL
+    latitude: 41.669837
+    longitude: -87.796585
+  url: https://www.palosheights.org/273/Farmers-Market
+  datePatterns:
+    - every Wednesday from 0800 to 1300, 2021-05-12 through 2021-10-13
+RaviniaFarmersMarket:
+  name: Ravinia Farmers' Market
+  location:
+    address: Dean Avenue and Roger Williams Avenue, Ravinia, IL
+    latitude: 42.165465
+    longitude: -87.781269
+  url: https://www.raviniafarmersmarket.com/
+  datePatterns:
+    - every Wednesday from 0700 to 1300, 2021-06-02 through 2021-10-27
+RiversideFarmersMarket:
+  name: Riverside Farmers Market
+  location:
+    latitude: 41.826633
+    longitude: -87.818944
+    address: 10 Pine Avenue, Riverside, IL
+  url: https://www.riverside.il.us/369/Farmers-Market
+  datePatterns:
+    - every Wednesday from 1430 to 1900, 2021-06-02 through 2021-10-06
 SchaumburgFarmersMarket:
   name: Schaumburg Farmers Market
   location:
