@@ -1,4 +1,13 @@
 # Chicago Farmers Markets
+Andersonville:
+  name: Andersonville Farmers Market
+  url: https://andersonvillemarket.org/
+  location:
+    address: Catalpa Avenue Between Ashland and Clark, Chicago, IL
+    latitude: 41.9813891
+    longitude: -87.6690122
+  datePatterns:
+    - every Wednesday from 1500 to 1900, 2021-05-12 through 2021-10-20
 GCMLincolnPark:
   name: Green City Market - Lincoln Park
   location:
@@ -19,6 +28,15 @@ LincolnSquareFarmersMarket:
   datePatterns:
     - every Tuesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Thursday from 1500 to 1900, 2021-05-01 through 2021-10-31
+
+# TODO:
+# - Lafolette Park farmers market
+# - Ford city mall farmers market
+# - Youth Farm Farmers Market https://www.chicagobotanic.org/urbanagriculture/youthfarm
+# - City Farm Chicago
+# - Englewood Farmers Market
+# - Eden Place Farmers Market
+
 # Suburban Farmers Markets
 BarringtonFarmersMarket:
   name: Barrington Farmers Market
@@ -38,6 +56,33 @@ DarienFarmersMarket:
   url: https://nfmd.org/il/darien/1009648/
   datePatterns:
     - every Wednesday from 1500 to 1900, 2021-06-01 through 2021-10-31
+Dundee:
+  name: Dundee Depot Market
+  location:
+    address: 319 N. River Street, East Dundee, IL
+    latitude: 42.101177
+    longitude: -88.274902
+  url: https://www.facebook.com/Dundee-Depot-Market-and-Visitors-Center-113123312056926/
+  datePatterns:
+    - every Saturday from 0800 to 1400, 2021-05-08 through 2021-10-31
+ElmhurstFarmersMarket:
+  name: Elmhurst Farmers Market
+  url: http://elmhurstfarmersmarket.com/
+  location:
+    address: York and Valette, Elmhurst, IL
+    latitude: 41.883572
+    longitude: 87.94001
+  datePatterns:
+    - every Wednesday from 0700 to 1300, 2021-06-02 through 2021-10-31
+Flossmoor:
+  name: Flossmoor Farmers Market
+  url: https://nfmd.org/il/flossmoor/1005082/
+  location:
+    address: 1000 Sterling Ave, Flossmoor, IL
+    latitude: 41.544455
+    longitude: -87.67820499999999
+  datePatterns:
+    - every Friday from 0800 to 1300, 2021-06-01 through 2021-10-31
 HighwoodEveningMarket:
   name: Highwood Evening Gourmet Market
   location:
@@ -47,6 +92,24 @@ HighwoodEveningMarket:
   url: https://www.celebratehighwood.org/highwood-evening-gourmet-market/
   datePatterns:
     - every Wednesday from 1630 to 2130, 2021-07-07 through 2021-09-22
+Joliet:
+  name: Joliet Farmers Market
+  location:
+    address: 1215 Houbolt Rd, Joliet, IL
+    latitude: 41.499601999999996
+    longitude: -88.168722
+  url: https://nfmd.org/il/joliet/1000687/
+  datePatterns:
+    - every Friday from 0800 to 1400, 2021-06-01 through 2021-09-30
+LakeBluff:
+  name: Lake Bluff Farmers Market
+  location:
+    address: Sheridan Rd and E Scranton Ave, Lake Bluff, IL
+    latitude: 42.279652
+    longitude: -87.846024
+  url: https://www.lakebluff.org/residents/farmers-market
+  datePatterns:
+    - every Friday from 0700 to 1200, 2021-06-04 through 2021-10-08
 LakeZurich:
   name: Lake Zurich Farmers Market
   location:
@@ -56,6 +119,24 @@ LakeZurich:
   url: https://www.lakezurich.org/366/Farmers-Market
   datePatterns:
     - every Friday from 1500 to 1900, 2021-06-04 through 2021-09-10
+Mundelein:
+  name: Mundelein Farmers Market
+  url: http://www.mundeleincommunityconnection.org/farmers-market-general-information.html
+  location:
+    address: Park and Seymour Avenue, Mundelein, IL
+    latitude: 42.271511
+    longitude: -88.002518
+  datePatterns:
+    - every Friday from 1500 to 1900, 2021-06-18 through 2021-10-15
+NorthbrookFarmersMarket:
+  name: Northbrook Farmers Market
+  url: https://northbrookfarmersmarket.org/
+  location:
+    address: Cherry and Meadow, Northbrook, IL
+    latitude: 42.131358999999996
+    longitude: -87.828659
+  datePatterns:
+    - every Wednesday from 0700 to 1300, 2021-06-16 through 2021-10-13
 PalosHeights:
   name: Palos Heights Farmers Market
   location:
