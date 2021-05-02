@@ -30,12 +30,18 @@ LincolnSquareFarmersMarket:
     - every Thursday from 1500 to 1900, 2021-05-01 through 2021-10-31
 
 # TODO:
+# - Division Street Farmers Market
 # - Lafolette Park farmers market
 # - Ford city mall farmers market
 # - Youth Farm Farmers Market https://www.chicagobotanic.org/urbanagriculture/youthfarm
 # - City Farm Chicago
 # - Englewood Farmers Market
 # - Eden Place Farmers Market
+# - Plainfield
+# - Ottawa Farmers Market - https://www.ottawachamberillinois.com/farmers-market
+# - Oak Forest Farmers Market
+# - Winnetka / Northfield Farmers Market
+
 
 # Suburban Farmers Markets
 BarringtonFarmersMarket:
@@ -47,6 +53,15 @@ BarringtonFarmersMarket:
   url: https://barringtonfarmersmarket.com/
   datePatterns:
     - every Thursday from 1500 to 1900, 2021-06-17 through 2021-10-21
+CrystalLake:
+  name: Crystal Lake Farmers Market
+  location:
+    address: 70 East Woodstock Street, Crystal Lake, IL
+    latitude: 42.243665
+    longitude: -88.31756
+  url: https://downtowncl.org/annual-events/farmers-market/
+  datePatterns:
+    - every Saturday from 0800 to 1300, 2021-06-05 through 2021-09-25
 DarienFarmersMarket:
   name: Darien Farmers Market
   location:
@@ -83,6 +98,15 @@ Flossmoor:
     longitude: -87.67820499999999
   datePatterns:
     - every Friday from 0800 to 1300, 2021-06-01 through 2021-10-31
+GlenviewFarmersMarket:
+  name: Glenview Farmers Market
+  url: https://www.visitchicagonorthshore.com/Events/Details?e=3173
+  datePatterns:
+    - every Saturday from 0800 to 1200, 2021-06-19 through 2021-10-16
+  location:
+    address: 1510 Wagner Road, Glenview, IL
+    latitude: 42.082192
+    longitude: -87.781367
 HighwoodEveningMarket:
   name: Highwood Evening Gourmet Market
   location:
@@ -92,6 +116,15 @@ HighwoodEveningMarket:
   url: https://www.celebratehighwood.org/highwood-evening-gourmet-market/
   datePatterns:
     - every Wednesday from 1630 to 2130, 2021-07-07 through 2021-09-22
+Homewood:
+  name: Homewood Farmers market
+  url: https://www.village.homewood.il.us/exploration-events/events/farmers-markets
+  location:
+    address: Martin Avenue between Ridge Road and Chestnut Road, Homewood, IL
+    latitude: 41.5617302
+    longitude: -87.6686618
+  datePatterns:
+    - every Saturday from 0800 to 1300, 2021-05-08 through 2021-10-09
 Joliet:
   name: Joliet Farmers Market
   location:
@@ -101,6 +134,15 @@ Joliet:
   url: https://nfmd.org/il/joliet/1000687/
   datePatterns:
     - every Friday from 0800 to 1400, 2021-06-01 through 2021-09-30
+Kankakee:
+  name: Kankakee Farmers Market
+  url: https://www.downtownkankakee.com/farmers-market/
+  datePatterns:
+    - every Saturday from 0800 to 1200, 2021-05-01 through 2021-10-30
+  location:
+    address: Schuyler Ave. and Merchant St., Kankakee, IL
+    latitude: 41.1189957
+    longitude: -87.8663536
 LakeBluff:
   name: Lake Bluff Farmers Market
   location:
@@ -119,6 +161,15 @@ LakeZurich:
   url: https://www.lakezurich.org/366/Farmers-Market
   datePatterns:
     - every Friday from 1500 to 1900, 2021-06-04 through 2021-09-10
+MortonGrove:
+  name: Morton Grove French Market
+  url: https://www.facebook.com/mortongrovefrenchmarket/
+  location:
+    address: 6250 West Dempster, Morton Grove, IL
+    latitude: 42.0418428
+    longitude: -87.7849871
+  datePatterns:
+    - every Saturday from 0800 to 1200, 2021-06-05 through 2021-10-23
 Mundelein:
   name: Mundelein Farmers Market
   url: http://www.mundeleincommunityconnection.org/farmers-market-general-information.html
@@ -128,6 +179,15 @@ Mundelein:
     longitude: -88.002518
   datePatterns:
     - every Friday from 1500 to 1900, 2021-06-18 through 2021-10-15
+Naperville:
+  name: Naperville Farmers Market
+  url: https://napervillefarmersmarket.com/
+  location:
+    address: Fifth Avenue Station Parking Lot, Naperville, IL
+    latitude: 41.779519
+    longitude: -88.14595
+  datePatterns:
+    - every Saturday from 0700 to 1200, 2021-06-01 through 2021-11-01
 NorthbrookFarmersMarket:
   name: Northbrook Farmers Market
   url: https://northbrookfarmersmarket.org/
@@ -137,6 +197,42 @@ NorthbrookFarmersMarket:
     longitude: -87.828659
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-06-16 through 2021-10-13
+Palatine:
+  name: Palatine Market
+  url: https://www.palatine.il.us/663/Farmers-Market
+  datePatterns:
+    - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
+  location:
+    address: Palatine Metra Station
+    latitude: 42.113040999999996
+    longitude: -88.047119
+ParkForest:
+  name: Park Forest Farmers Market
+  url: http://www.villageofparkforest.com/98/Farmers-Market
+  datePatterns:
+    - every Saturday from 0700 to 1200, 2021-05-01 through 2021-10-30
+  location:
+    address: 271 Lakewood Blvd, Park Forest, IL
+    latitude: 41.484496
+    longitude: -87.681379999
+ParkRidge:
+  name: Park Ridge Farmers Market
+  url: https://www.parkridgefarmersmarket.com/
+  datePatterns:
+    - every Saturday from 0700 to 1300, 2021-05-29 through 2021-10-31
+  location:
+    address: Prairie and Garden Street, Park Ridge, IL
+    latitude: 42.009418
+    longitude: -87.83458
+#Plainfield:
+#  name: Plainfield Farmers Market
+#  location:
+#    address: Route 59 and Lockport Road, Plainfield, IL
+#    latitude: 41.608508
+#    longitude: -88.20226
+#  url: https://www.facebook.com/PlainfieldFarmerMarket
+#  datePatterns:
+#    - asdf
 PalosHeights:
   name: Palos Heights Farmers Market
   location:
@@ -173,3 +269,12 @@ SchaumburgFarmersMarket:
   url: https://www.villageofschaumburg.com/our-village/farmers-market
   datePatterns:
     - every Friday from 0700 to 1300, 2021-06-04 through 2021-10-31
+Wheaton:
+  name: Wheaton French Market
+  location:
+    latitude: 41.864254
+    longitude: -88.1065543
+    address: Reber Street and Liberty Drive, Wheaton, IL
+  url: https://www.wheaton.il.us/Calendar.aspx?EID=1546
+  datePatterns:
+    - every Saturday from 0800 to 1400, 2021-04-10 through 2021-11-27
