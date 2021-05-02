@@ -28,8 +28,18 @@ LincolnSquareFarmersMarket:
   datePatterns:
     - every Tuesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Thursday from 1500 to 1900, 2021-05-01 through 2021-10-31
+Nettlehorst:
+  name: Chicago Nettlehorst French Market
+  location:
+    address: Broadway and Melrose, Chicago, IL
+    latitude: 41.94113
+    longitude: -87.644431
+  url: https://www.bensidounusa.com/nettlehorst/
+  datePatterns:
+    - every Saturday from 0800 to 1400, 2021-07-04 through 2021-10-31
 
 # TODO:
+# - Evanston west end ethnic market
 # - Division Street Farmers Market
 # - Lafolette Park farmers market
 # - Ford city mall farmers market
@@ -41,7 +51,7 @@ LincolnSquareFarmersMarket:
 # - Ottawa Farmers Market - https://www.ottawachamberillinois.com/farmers-market
 # - Oak Forest Farmers Market
 # - Winnetka / Northfield Farmers Market
-
+# - Mokena Farmers Market - CLOSED PERMANENTLY
 
 # Suburban Farmers Markets
 BarringtonFarmersMarket:
@@ -53,6 +63,7 @@ BarringtonFarmersMarket:
   url: https://barringtonfarmersmarket.com/
   datePatterns:
     - every Thursday from 1500 to 1900, 2021-06-17 through 2021-10-21
+
 CrystalLake:
   name: Crystal Lake Farmers Market
   location:
@@ -71,6 +82,16 @@ DarienFarmersMarket:
   url: https://nfmd.org/il/darien/1009648/
   datePatterns:
     - every Wednesday from 1500 to 1900, 2021-06-01 through 2021-10-31
+DownersGrove:
+  name: Downers Grove Farmers Market
+  url: https://www.ymcachicago.org/indianboundary/blog/entry/Downtown-Downers-Grove-Market-2020
+  location:
+    name: Downers Grove Metra, Burlington Avenue, Downers Grove, IL
+    latitude: 41.795355
+    longitude: -88.010345
+  datePatterns:
+    - every Saturday from 0700 to 1230, 2021-05-08 through 2021-10-16
+
 Dundee:
   name: Dundee Depot Market
   location:
@@ -80,6 +101,15 @@ Dundee:
   url: https://www.facebook.com/Dundee-Depot-Market-and-Visitors-Center-113123312056926/
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-05-08 through 2021-10-31
+ElkGroveFarmersMarket:
+  name: Elk Grove Farmers Market
+  url: http://www.elkgrovefarmersmarket.com/
+  location:
+    address: 901 Wellington Avenue, Elk Grove Village, IL
+    latitude: 42.002201
+    longitude: -88.00872
+  datePatterns:
+    - every Saturday from 0730 to 1300, 2021-06-01 through 2021-10-15
 ElmhurstFarmersMarket:
   name: Elmhurst Farmers Market
   url: http://elmhurstfarmersmarket.com/
@@ -89,6 +119,15 @@ ElmhurstFarmersMarket:
     longitude: 87.94001
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-06-02 through 2021-10-31
+EvanstonDowntown:
+  name: Downtown Evanston Farmers Market
+  url: https://www.cityofevanston.org/residents/farmers-market
+  location:
+    address: University Place and Oak Avenue, Evanston, IL
+    latitude: 42.05106
+    longitude: -87.68654599999999
+  datePatterns:
+    - every Saturday from 0730 to 1300, 2021-05-01 through 2021-11-05
 Flossmoor:
   name: Flossmoor Farmers Market
   url: https://nfmd.org/il/flossmoor/1005082/
@@ -161,6 +200,15 @@ LakeZurich:
   url: https://www.lakezurich.org/366/Farmers-Market
   datePatterns:
     - every Friday from 1500 to 1900, 2021-06-04 through 2021-09-10
+Lisle:
+  name: Lisle French Market
+  location:
+    address: Burlington and Spencer, Lisle, IL
+    latitude: 41.798611
+    longitude: -88.07333299999999
+  url: https://villageoflisle.org/228/French-Market-at-PrairieWalk-Pond
+  datePatterns:
+    - every Saturday from 0800 to 1300, 2021-05-01 through 2021-10-31
 MortonGrove:
   name: Morton Grove French Market
   url: https://www.facebook.com/mortongrovefrenchmarket/
