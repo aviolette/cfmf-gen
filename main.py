@@ -16,6 +16,8 @@ Weekdays = IntEnum(
     "Weekdays", "Monday Tuesday Wednesday Thursday Friday Saturday Sunday", start=0
 )
 
+Orders = IntEnum("Orders", "first second third fourth", start=0)
+
 chicago = timezone("America/Chicago")
 
 
@@ -34,7 +36,7 @@ class TimeRange:
         return self.start_time.date()
 
 
-def find_first_date(weekday: Weekdays, start_date: datetime):
+def find_first_date(weekday: Weekdays, start_date: datetime) -> datetime:
     start_date_weekday = start_date.weekday()
     if weekday == start_date_weekday:
         return start_date
@@ -67,25 +69,50 @@ def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
         pattern,
     )
     if m:
-        first_day_in_sequence = find_first_date(
-            Weekdays[m.group(1)], chicago.localize(datetime.fromisoformat(m.group(4)))
-        )
-
-        last_possible_day = chicago.localize(datetime.fromisoformat(m.group(5)))
-
-        start_tod = strptime(m.group(2), "%H%M")
-        end_tod = strptime(m.group(3), "%H%M")
-
-        return [
-            entry
-            for entry in generate_entries_between(
-                first_day_in_sequence,
-                last_possible_day,
-                start_tod,
-                end_tod,
-                timedelta(days=7),
+        weekday, start_hour, end_hour, start_date, end_date = [
+            m.group(i) for i in range(1, 6)
+        ]
+        return generate_dates(end_date, end_hour, start_date, start_hour, weekday)
+    m = re.search(
+        "(first|second|third|fourth) (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday) from ([0-9]{4}) to ([0-9]{4}), ([0-9\-]+) through ([0-9\-]+)",
+        pattern,
+    )
+    if m:
+        which, weekday, start_hour, end_hour, start_date, end_date = [
+            m.group(i) for i in range(1, 7)
+        ]
+        results = generate_dates(end_date, end_hour, start_date, start_hour, weekday)
+        results = [
+            item
+            for item in filter(
+                lambda time_range: int((time_range.start_time.day - 1) / 7)
+                == Orders[which].value,
+                results,
             )
         ]
+
+        return results
+
+
+def generate_dates(
+    end_date, end_hour, start_date, start_hour, weekday
+) -> List[TimeRange]:
+    first_day_in_sequence = find_first_date(
+        Weekdays[weekday], chicago.localize(datetime.fromisoformat(start_date))
+    )
+    last_possible_day = chicago.localize(datetime.fromisoformat(end_date))
+    start_tod = strptime(start_hour, "%H%M")
+    end_tod = strptime(end_hour, "%H%M")
+    return [
+        entry
+        for entry in generate_entries_between(
+            first_day_in_sequence,
+            last_possible_day,
+            start_tod,
+            end_tod,
+            timedelta(days=7),
+        )
+    ]
 
 
 def main(season_file, output_directory):
