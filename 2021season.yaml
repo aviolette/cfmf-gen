@@ -18,6 +18,25 @@ GCMLincolnPark:
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Saturday from 0700 to 1300, 2021-05-01 through 2021-10-31
+Glenwood:
+  name: Glenwood Sunday Market
+  url: https://www.glenwoodsundaymarket.org/
+  location:
+    address: 1233 W. Pratt Blvd, Chicago, IL
+    latitude: 42.0052645
+    longitude: -87.6627076
+  datePatterns:
+    - every Sunday from 0900 to 1400, 2021-06-01 through 2021-10-24
+JeffersonPark:
+  name: Jefferson Park SUnday Market
+  location:
+    address: Lawrence and Long, Chicago, IL
+    latitude: 41.967579,
+    longitude: -87.7632471
+  url: http://www.jeffersonparksundaymarket.com/
+  datePatterns:
+    - second Sunday of the month from 0930 to 1330, 2021-06-01 through 2021-10-31
+    - fourth Sunday of the month from 0930 to 1330, 2021-06-01 through 2021-10-31
 LincolnSquareFarmersMarket:
   name: Lincoln Square Farmers Market
   location:
@@ -28,6 +47,15 @@ LincolnSquareFarmersMarket:
   datePatterns:
     - every Tuesday from 0700 to 1300, 2021-05-01 through 2021-10-31
     - every Thursday from 1500 to 1900, 2021-05-01 through 2021-10-31
+LoganSquare:
+  name: Logan Square Farmers Market
+  location:
+    address: Logan Blvd and Milwaukee Avenue, Chicago, IL
+    latitude: 41.928433
+    longitude: -87.704799
+  url: http://www.logansquarefarmersmarket.org/
+  datePatterns:
+    - every Sunday from 1000 to 1500, 2021-05-09 through 2021-10-18
 Nettlehorst:
   name: Chicago Nettlehorst French Market
   location:
@@ -55,9 +83,18 @@ SixtyFirst:
   url: https://experimentalstation.org/market
   datePatterns:
     - every Saturday from 0900 to 1400, 2021-05-15 through 2021-10-31
-
+WickerPark:
+  name: Wicker Park Farmers Market
+  url: http://www.wickerparkbucktown.com/farmersmarket/farmers-market/
+  datePatterns:
+    - every Sunday from 0800 to 1400, 2021-05-01 through 2021-10-31
+  location:
+    address: 1425 N. Damen Avenue, Chicago, IL
+    latitude: 41.908048
+    longitude: -87.676738
 # TODO:
 # - Didier Farms
+# - Garfield Park Farmers Market
 # - Glencoe French Market
 # - Chicago Botanic
 # - LongGrove
@@ -129,6 +166,15 @@ Brookfield:
   url: https://brookfieldfarmers.com/
   datePatterns:
     - every Saturday from 0800 to 1300, 2021-06-05 through 2021-10-16
+BuffaloGrove:
+  name: Buffalo Grove Farmers Market
+  location:
+    address: 951 McHenry Road, Buffalo Grove, IL
+    latitude: 42.167918
+    longitude: -87.97019
+  url: https://www.facebook.com/BuffaloGroveFarmersMarket
+  datePatterns:
+    - every Sunday from 0800 to 1230, 2021-06-13 through 2021-10-10
 Crete:
   name: Crete Farmeters Market
   location:
@@ -223,6 +269,15 @@ Flossmoor:
     longitude: -87.67820499999999
   datePatterns:
     - every Friday from 0800 to 1300, 2021-06-01 through 2021-10-31
+Frankfort:
+  name: Frankfort Country Market
+  url: https://www.frankfortil.org/residents/special_events/frankfort_country_market.php
+  location:
+    address: Kansas and Oak St, Frankfort, IL
+    latitude: 41.498456999999995
+    longitude: -87.85114
+  datePatterns:
+    - every Sunday from 0900 to 1300, 2021-04-21 through 2021-10-24
 Geneva:
   name: Geneva French Market
   url: https://www.geneva.il.us/calendar.aspx
@@ -333,6 +388,15 @@ MortonGrove:
     longitude: -87.7849871
   datePatterns:
     - every Saturday from 0800 to 1200, 2021-06-05 through 2021-10-23
+MountProspect:
+  name: Mount Prospect Farmers Market
+  url: https://mplions.org/farmers-market/
+  datePatterns:
+    - every Sunday from 0800 to 1300, 2021-06-06 through 2021-10-31
+  location:
+    address: Mount Prospect Metra Station
+    latitude: 42.063693
+    longitude: -87.935287
 Mundelein:
   name: Mundelein Farmers Market
   url: http://www.mundeleincommunityconnection.org/farmers-market-general-information.html
@@ -360,6 +424,15 @@ NorthbrookFarmersMarket:
     longitude: -87.828659
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-06-16 through 2021-10-13
+OakPark:
+  name: Oak Park Farmers Market
+  url: https://www.oak-park.us/our-community/oak-park-farmers-market
+  datePatterns:
+    - every Saturday from 0730 to 1300, 2021-05-22 through 2021-10-31
+  location:
+    address: 460 Lake St, Oak Park, IL
+    latitude: 41.888386
+    longitude: -87.78683699999999
 Oswego:
   name: Oswego Farmers Market
   url: https://www.oswegolandparkdistrict.org/programs-events/special-events/oswego-country-market/
