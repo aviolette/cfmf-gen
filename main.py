@@ -65,7 +65,7 @@ def generate_entries_between(
 
 def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
     m = re.search(
-        "every (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday) from ([0-9]{4}) to ([0-9]{4}), ([0-9\-]+) through ([0-9\-]+)",
+        "every (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) from ([0-9]{4}) to ([0-9]{4}), ([0-9\-]+) through ([0-9\-]+)",
         pattern,
     )
     if m:
@@ -74,7 +74,7 @@ def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
         ]
         return generate_dates(end_date, end_hour, start_date, start_hour, weekday)
     m = re.search(
-        "(first|second|third|fourth) (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday) from ([0-9]{4}) to ([0-9]{4}), ([0-9\-]+) through ([0-9\-]+)",
+        "(first|second|third|fourth) (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) from ([0-9]{4}) to ([0-9]{4}), ([0-9\-]+) through ([0-9\-]+)",
         pattern,
     )
     if m:

@@ -37,8 +37,22 @@ Nettlehorst:
   url: https://www.bensidounusa.com/nettlehorst/
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-07-04 through 2021-10-31
+SixtyFirst:
+  name: 61st Street Farmers Market
+  location:
+    address: 61st and Dorchester, Chicago, IL
+    latitude: 41.784199
+    longitude: -87.591431
+  url: https://experimentalstation.org/market
+  datePatterns:
+    - every Saturday from 0900 to 1400, 2021-05-15 through 2021-10-31
 
 # TODO:
+# - Didier Farms
+# - Glencoe French Market
+# - Chicago Botanic
+# - COLLEGE OF LAKE COUNTY FARMERS MARKET
+# - Brdigeport Farmers Market
 # - Evanston west end ethnic market
 # - Division Street Farmers Market
 # - Lafolette Park farmers market
@@ -52,8 +66,31 @@ Nettlehorst:
 # - Oak Forest Farmers Market
 # - Winnetka / Northfield Farmers Market
 # - Mokena Farmers Market - CLOSED PERMANENTLY
+# - Tinley Park Farmers Market
+# - West Humboldt Park Farmers Market
+# - Southport Market
+# - Printers Row Farmers Market
+# - North Center Farmers Market
 
 # Suburban Farmers Markets
+ArlingtonHeightsFarmersMarket:
+  name: Arlington Heights Farmers Market
+  location:
+    address: Vail and Fremont, Arlington Heights, IL
+    latitude: 42.087379999999996
+    longitude: -87.984093
+  url: https://www.ahfarmersmarket.org/
+  datePatterns:
+    - every Saturday from 0800 to 1230, 2021-05-15 through 2021-10-16
+Aurora:
+  name: Aurora Farmers Market
+  location:
+    address: 65 Water Street, Aurora, IL
+    latitude: 41.7560751
+    longitutde: -88.3174311
+  url: https://www.aurora-il.org/1595/Aurora-Farmers-Market
+  datePatterns:
+    - every Saturday from 0800 to 1200, 2021-06-12 through 2021-10-16
 BarringtonFarmersMarket:
   name: Barrington Farmers Market
   location:
@@ -63,7 +100,37 @@ BarringtonFarmersMarket:
   url: https://barringtonfarmersmarket.com/
   datePatterns:
     - every Thursday from 1500 to 1900, 2021-06-17 through 2021-10-21
+Batavia:
+  name: Batavia Farmers Market
+  location:
+    address: River Street and Wilson, Batavia, IL
+    latitude: 41.849998
+    longitude: -88.305809
+  url: https://downtownbatavia.com/farmers-market/
+  datePatterns:
+    - every Saturday from 0800 to 1200, 2021-06-01 through 2021-10-31
 
+Brookfield:
+  name: Brookfield Farmers Market
+  location:
+    address: 8820 Brookfield Avenue, Brookfield, IL
+    latitude: 41.822942999999995
+    longitude: -87.84082099999999
+  url: https://brookfieldfarmers.com/
+  datePatterns:
+    - every Saturday from 0800 to 1300, 2021-06-05 through 2021-10-16
+Crete:
+  name: Crete Farmeters Market
+  location:
+    address: 515 1st Street, Crete, IL
+    latitude: 41.446641
+    longitude: -87.6345157
+  url: https://www.cretechamber.com/events
+  datePatterns:
+    - first Wednesday from 1600 to 2000, 2021-06-01 through 2021-08-31
+    - third Wednesday from 1600 to 2000, 2021-06-01 through 2021-08-31
+    - first Wednesday from 1600 to 1900, 2021-09-01 through 2021-09-30
+    - third Wednesday from 1600 to 1900, 2021-09-01 through 2021-09-30
 CrystalLake:
   name: Crystal Lake Farmers Market
   location:
@@ -73,6 +140,15 @@ CrystalLake:
   url: https://downtowncl.org/annual-events/farmers-market/
   datePatterns:
     - every Saturday from 0800 to 1300, 2021-06-05 through 2021-09-25
+Deerfield:
+  name: Deerfield Farmers Market
+  location:
+    address: Deerfield Metra Station
+    latitude: 42.167339
+    longitude: -87.849953
+  url: http://www.deerfield.il.us/301/Farmers-Market
+  datePatterns:
+    - every Saturday from 0700 to 1230, 2021-06-12 through 2021-10-09
 DarienFarmersMarket:
   name: Darien Farmers Market
   location:
@@ -146,6 +222,17 @@ GlenviewFarmersMarket:
     address: 1510 Wagner Road, Glenview, IL
     latitude: 42.082192
     longitude: -87.781367
+Grayslake:
+  name: Grayslake Farmers Market
+  url: http://www.grayslakefarmersmarket.com/
+  datePatterns:
+    - every Saturday from 1000 to 1400, 2021-04-10 through 2021-05-29
+    - every Wednesday from 1500 to 1900, 2021-06-02 through 2021-09-22
+    - every Saturday from 1000 to 1400, 2021-09-25 through 2021-12-11
+  address:
+    location: Whitney and Center Street, Grayslake, IL
+    latitude: 42.3443252
+    longitude: -88.0424573
 HighwoodEveningMarket:
   name: Highwood Evening Gourmet Market
   location:
@@ -317,6 +404,15 @@ SchaumburgFarmersMarket:
   url: https://www.villageofschaumburg.com/our-village/farmers-market
   datePatterns:
     - every Friday from 0700 to 1300, 2021-06-04 through 2021-10-31
+Skokie:
+  name: Skokie Farmers Market
+  location:
+    address: Skokie Village hall
+    latitude: 42.025957
+    longitude: -87.756005
+  url: https://skokie.org/434/Skokie-Farmers-Market
+  datePatterns:
+    - every Sunday from 0700 to 1230, 2021-06-06 through 2021-11-07
 Wheaton:
   name: Wheaton French Market
   location:
@@ -326,3 +422,22 @@ Wheaton:
   url: https://www.wheaton.il.us/Calendar.aspx?EID=1546
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-04-10 through 2021-11-27
+Wilmette:
+  name: Wilmette French Market
+  location:
+    address: 722 Green Bay Road, Wilmette, IL
+    latitude: 42.076826
+    longitude: -87.709288
+  url: https://www.wilmette.com/visitors/french-market/
+  datePatterns:
+    - every Saturday from 0800 to 1300, 2021-04-17 through 2021-10-31
+Woodstock:
+  name: Woodstock Farmers Market
+  url: http://woodstockfarmersmarket.org/
+  location:
+    address: Cass and Main Street, Woodstock, IL
+    latitude: 42.31525
+    longitude:  -88.447403
+  datePatterns:
+    - every Saturday from 0800 to 1300, 2021-04-01 through 2021-10-31
+    - every Tuesday from 0800 to 1300, 2021-05-01 through 2021-09-30
