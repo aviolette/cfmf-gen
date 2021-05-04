@@ -37,6 +37,15 @@ Nettlehorst:
   url: https://www.bensidounusa.com/nettlehorst/
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-07-04 through 2021-10-31
+Pilsen:
+  name: Pilsen Community Market
+  location:
+    address: 18th and Halsted, Chicago, IL
+    latitude: 41.858092
+    longitude: -87.646637
+  url: https://pilsencommunitymarket.weebly.com/
+  datePatterns:
+    - every Sunday from 0900 to 1500, 2021-05-23 through 2021-10-31
 SixtyFirst:
   name: 61st Street Farmers Market
   location:
@@ -51,6 +60,7 @@ SixtyFirst:
 # - Didier Farms
 # - Glencoe French Market
 # - Chicago Botanic
+# - LongGrove
 # - COLLEGE OF LAKE COUNTY FARMERS MARKET
 # - Brdigeport Farmers Market
 # - Evanston west end ethnic market
@@ -213,6 +223,24 @@ Flossmoor:
     longitude: -87.67820499999999
   datePatterns:
     - every Friday from 0800 to 1300, 2021-06-01 through 2021-10-31
+Geneva:
+  name: Geneva French Market
+  url: https://www.geneva.il.us/calendar.aspx
+  location:
+    address: Geneva Metra Station, Crescent Place, Geneva, IL
+    latitude: 41.881446
+    longitude: -88.310195
+  datePatterns:
+    - every Sunday from 0900 to 1400, 2021-05-02 through 2021-11-01
+GlenEllyn:
+  name: Glen Ellyn French Market
+  url: https://www.facebook.com/GlenEllynFrenchMarket/
+  location:
+    address: 449 N. Main Street, Glen Ellyn, IL
+    latitude: 41.875687
+    longitude: -88.0686595
+  datePatterns:
+    - every Sunday from 0800 to 1300, 2021-05-02 through 2021-10-31
 GlenviewFarmersMarket:
   name: Glenview Farmers Market
   url: https://www.visitchicagonorthshore.com/Events/Details?e=3173
@@ -332,6 +360,15 @@ NorthbrookFarmersMarket:
     longitude: -87.828659
   datePatterns:
     - every Wednesday from 0700 to 1300, 2021-06-16 through 2021-10-13
+Oswego:
+  name: Oswego Farmers Market
+  url: https://www.oswegolandparkdistrict.org/programs-events/special-events/oswego-country-market/
+  datePatterns:
+    - every Sunday from 0900 to 1300, 2021-06-06 through 2021-09-26
+  location:
+    address: 15 N. Main St. Oswego, IL
+    latitude: 41.684705
+    longitude: -88.35163
 Palatine:
   name: Palatine Market
   url: https://www.palatine.il.us/663/Farmers-Market
