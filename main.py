@@ -41,7 +41,8 @@ def find_first_date(weekday: Weekdays, start_date: datetime) -> datetime:
     if weekday == start_date_weekday:
         return start_date
     elif weekday < start_date_weekday:
-        return start_date + timedelta(days=(start_date_weekday - weekday - 1) + weekday)
+        diff = (int(Weekdays.Saturday) - int(start_date_weekday)) + weekday + 2
+        return start_date + timedelta(days=diff)
     elif weekday > start_date_weekday:
         return start_date + timedelta(days=(weekday - start_date_weekday))
 
@@ -101,6 +102,7 @@ def generate_dates(
         Weekdays[weekday], chicago.localize(datetime.fromisoformat(start_date))
     )
     last_possible_day = chicago.localize(datetime.fromisoformat(end_date))
+    last_possible_day = last_possible_day + timedelta(days=1)
     start_tod = strptime(start_hour, "%H%M")
     end_tod = strptime(end_hour, "%H%M")
     return [
