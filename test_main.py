@@ -88,19 +88,19 @@ class TestPattern(TestCase):
                     chicago.localize(datetime(2021, 5, 5, 13, 0)),
                 ),
                 TimeRange(
-                    chicago.localize(datetime(2021, 5, 12, 7, 0)),
-                    chicago.localize(datetime(2021, 5, 12, 13, 0)),
+                    chicago.localize(datetime(2021, 6, 2, 7, 0)),
+                    chicago.localize(datetime(2021, 6, 2, 13, 0)),
                 ),
                 TimeRange(
-                    chicago.localize(datetime(2021, 5, 19, 7, 0)),
-                    chicago.localize(datetime(2021, 5, 19, 13, 0)),
+                    chicago.localize(datetime(2021, 7, 7, 7, 0)),
+                    chicago.localize(datetime(2021, 7, 7, 13, 0)),
                 ),
                 TimeRange(
-                    chicago.localize(datetime(2021, 5, 26, 7, 0)),
-                    chicago.localize(datetime(2021, 5, 26, 13, 0)),
+                    chicago.localize(datetime(2021, 8, 4, 7, 0)),
+                    chicago.localize(datetime(2021, 8, 4, 13, 0)),
                 ),
             ],
             generate_date_entries_from_pattern(
-                "first Wednesday from 0700 to 1300, 2021-05-05 through 2021-09-01"
+                "first Wednesday of the month from 0700 to 1300, 2021-05-05 through 2021-09-01"
             ),
         )
