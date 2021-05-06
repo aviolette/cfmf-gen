@@ -164,7 +164,7 @@ Batavia:
     longitude: -88.305809
   url: https://downtownbatavia.com/farmers-market/
   datePatterns:
-    - every Saturday from 0800 to 1200, 2021-06-01 through 2021-10-31
+    - every Saturday from 0800 to 1200, June through October
 
 Brookfield:
   name: Brookfield Farmers Market
@@ -260,7 +260,7 @@ ElmhurstFarmersMarket:
     latitude: 41.883572
     longitude: 87.94001
   datePatterns:
-    - every Wednesday from 0700 to 1300, 2021-06-02 through 2021-10-31
+    - every Wednesday from 0700 to 1300, June through October
 EvanstonDowntown:
   name: Downtown Evanston Farmers Market
   url: https://www.cityofevanston.org/residents/farmers-market
@@ -278,7 +278,7 @@ Flossmoor:
     latitude: 41.544455
     longitude: -87.67820499999999
   datePatterns:
-    - every Friday from 0800 to 1300, 2021-06-01 through 2021-10-31
+    - every Friday from 0800 to 1300, June through October
 Frankfort:
   name: Frankfort Country Market
   url: https://www.frankfortil.org/residents/special_events/frankfort_country_market.php
@@ -361,7 +361,7 @@ Joliet:
     longitude: -88.168722
   url: https://nfmd.org/il/joliet/1000687/
   datePatterns:
-    - every Friday from 0800 to 1400, 2021-06-01 through 2021-09-30
+    - every Friday from 0800 to 1400, June through September
 Kankakee:
   name: Kankakee Farmers Market
   url: https://www.downtownkankakee.com/farmers-market/
@@ -415,7 +415,7 @@ Lisle:
     longitude: -88.07333299999999
   url: https://villageoflisle.org/228/French-Market-at-PrairieWalk-Pond
   datePatterns:
-    - every Saturday from 0800 to 1300, 2021-05-01 through 2021-10-31
+    - every Saturday from 0800 to 1300, May through October
 MortonGrove:
   name: Morton Grove French Market
   url: https://www.facebook.com/mortongrovefrenchmarket/

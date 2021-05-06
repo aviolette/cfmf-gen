@@ -142,6 +142,26 @@ class TestPattern(TestCase):
         )
         self.assertEqual(len(pattern), 14)
 
+    def test_generate_date_entries_from_pattern6(self):
+        pattern = generate_date_entries_from_pattern(
+            "every Saturday from 0800 to 1200, 2021-06-01 through 2021-10-31"
+        )
+        self.assertEqual(
+            TimeRange(
+                chicago.localize(datetime(2021, 6, 5, 8, 0)),
+                chicago.localize(datetime(2021, 6, 5, 12, 0)),
+            ),
+            pattern[0],
+        )
+        self.assertEqual(
+            TimeRange(
+                chicago.localize(datetime(2021, 10, 30, 8, 0)),
+                chicago.localize(datetime(2021, 10, 30, 12, 0)),
+            ),
+            pattern[-1],
+        )
+        self.assertEqual(len(pattern), 22)
+
     def test_generate_first_entries_from_pattern2(self):
         self.assertEqual(
             [
