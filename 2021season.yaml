@@ -93,7 +93,10 @@ WickerPark:
     latitude: 41.908048
     longitude: -87.676738
 # TODO:
+# - Saint Charles
 # - Didier Farms
+# - Daley Plaza
+# - Willis Tower
 # - Garfield Park Farmers Market
 # - Glencoe French Market
 # - Chicago Botanic
@@ -109,6 +112,8 @@ WickerPark:
 # - Englewood Farmers Market
 # - Eden Place Farmers Market
 # - Plainfield
+# - Pullman
+# - LaFolette Park
 # - Ottawa Farmers Market - https://www.ottawachamberillinois.com/farmers-market
 # - Oak Forest Farmers Market
 # - Winnetka / Northfield Farmers Market
@@ -118,7 +123,11 @@ WickerPark:
 # - Southport Market
 # - Printers Row Farmers Market
 # - North Center Farmers Market
-
+# - Westfield Old Orchard French Market
+# - Wauconda
+# - Lockport
+# - Washington Park Farmers Market
+# - Beverly
 # Suburban Farmers Markets
 ArlingtonHeightsFarmersMarket:
   name: Arlington Heights Farmers Market
@@ -233,6 +242,7 @@ Dundee:
   url: https://www.facebook.com/Dundee-Depot-Market-and-Visitors-Center-113123312056926/
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-05-08 through 2021-10-31
+
 ElkGroveFarmersMarket:
   name: Elk Grove Farmers Market
   url: http://www.elkgrovefarmersmarket.com/
@@ -325,6 +335,15 @@ HighwoodEveningMarket:
   url: https://www.celebratehighwood.org/highwood-evening-gourmet-market/
   datePatterns:
     - every Wednesday from 1630 to 2130, 2021-07-07 through 2021-09-22
+Hinsdale:
+  name: Hinsdale Farmers' Market
+  location:
+    address: 30 East Chicago Avenue, Hinsdale, IL
+    latitude: 41.803664
+    longitude: -87.92866
+  url: http://www.hinsdalechamber.com/farmers-market
+  datePatterns:
+    - every Monday from 0700 to 1300, 2021-05-31 through 2021-10-25
 Homewood:
   name: Homewood Farmers market
   url: https://www.village.homewood.il.us/exploration-events/events/farmers-markets
@@ -361,6 +380,15 @@ LakeBluff:
   url: https://www.lakebluff.org/residents/farmers-market
   datePatterns:
     - every Friday from 0700 to 1200, 2021-06-04 through 2021-10-08
+Lagrange:
+  name: Lagrange Farmers Market
+  url: https://www.facebook.com/lagrangefarmersmarket
+  location:
+    address: La Grange Road and Cossitt Ave, LaGrange, IL
+    latitude: 41.81237
+    longitude: -87.86953
+  datePatterns:
+    - every Thursday from 0700 to 1300, 2021-05-01 through 2021-10-31
 LakeZurich:
   name: Lake Zurich Farmers Market
   location:
@@ -370,6 +398,15 @@ LakeZurich:
   url: https://www.lakezurich.org/366/Farmers-Market
   datePatterns:
     - every Friday from 1500 to 1900, 2021-06-04 through 2021-09-10
+Libertyville:
+  name: Libertyville Farmers Market
+  location:
+    address: 120 West Church Street, Libertyville, IL
+    latitude: 42.2868
+    longitude: -87.954875
+  url: http://libertyvillefarmersmarket.org/
+  datePatterns:
+    - every Thursday from 0700 to 1300, 2021-06-03 through 2021-10-21
 Lisle:
   name: Lisle French Market
   location:
@@ -523,6 +560,13 @@ Skokie:
   url: https://skokie.org/434/Skokie-Farmers-Market
   datePatterns:
     - every Sunday from 0700 to 1230, 2021-06-06 through 2021-11-07
+WesternSprings:
+  name: Western Springs Farmers Market
+  location:
+    latitude: 41.80923
+    longitude: -87.90153099999999
+  datePatterns:
+    - every Thursday from 0700 to 1400, 2021-05-01 through 2021-10-31
 Wheaton:
   name: Wheaton French Market
   location:
