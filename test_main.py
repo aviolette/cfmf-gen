@@ -105,7 +105,7 @@ class TestPattern(TestCase):
             ),
         )
 
-    def test_generate_date_entries_from_pattern3(self):
+    def test_generate_date_entries_from_pattern4(self):
         self.assertEqual(
             [
                 TimeRange(
@@ -121,6 +121,26 @@ class TestPattern(TestCase):
                 "every Tuesday from 0700 to 1300, 2021-06-01 through 2021-06-08"
             ),
         )
+
+    def test_generate_date_entries_from_pattern5(self):
+        pattern = generate_date_entries_from_pattern(
+            "every Tuesday from 0700 to 1300, June through August"
+        )
+        self.assertEqual(
+            TimeRange(
+                chicago.localize(datetime(2021, 6, 1, 7, 0)),
+                chicago.localize(datetime(2021, 6, 1, 13, 0)),
+            ),
+            pattern[0],
+        )
+        self.assertEqual(
+            TimeRange(
+                chicago.localize(datetime(2021, 8, 31, 7, 0)),
+                chicago.localize(datetime(2021, 8, 31, 13, 0)),
+            ),
+            pattern[-1],
+        )
+        self.assertEqual(len(pattern), 14)
 
     def test_generate_first_entries_from_pattern2(self):
         self.assertEqual(

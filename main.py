@@ -18,6 +18,13 @@ Weekdays = IntEnum(
 
 Orders = IntEnum("Orders", "first second third fourth", start=0)
 
+months = "January|February|March|April|May|June|July|August|September|October|November|December"
+
+Months = IntEnum(
+    "Months",
+    "January February March April May June July August September October November December",
+)
+
 chicago = timezone("America/Chicago")
 
 
@@ -73,7 +80,36 @@ def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
         weekday, start_hour, end_hour, start_date, end_date = [
             m.group(i) for i in range(1, 6)
         ]
-        return generate_dates(end_date, end_hour, start_date, start_hour, weekday)
+        return generate_dates_from_string(
+            end_date, end_hour, start_date, start_hour, weekday
+        )
+
+    m = re.search(
+        "every (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) from ([0-9]{4}) to ([0-9]{4}), (January|February|March|April|May|June|July|August|September|October|November|December) through (January|February|March|April|May|June|July|August|September|October|November|December)",
+        pattern,
+    )
+
+    if m:
+        weekday, start_hour, end_hour, start_month, end_month = [
+            m.group(i) for i in range(1, 6)
+        ]
+        year = datetime.now().year
+        start_date = datetime(year, int(Months[start_month]), 1, 0, 0)
+        end_month_value = Months[end_month]
+        if end_month_value == Months.December:
+            end_month_value = Months.January
+        else:
+            end_month_value = Months(Months[end_month].value + 1)
+        if end_month_value == Months.December or Months[start_month] >= end_month_value:
+            year = year + 1
+        return generate_dates(
+            chicago.localize(datetime(year, end_month_value.value, 1, 0, 0)),
+            end_hour,
+            chicago.localize(start_date),
+            start_hour,
+            weekday,
+        )
+
     m = re.search(
         "(first|second|third|fourth) (Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) of the month from ([0-9]{4}) to ([0-9]{4}), ([0-9\-]+) through ([0-9\-]+)",
         pattern,
@@ -82,7 +118,9 @@ def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
         which, weekday, start_hour, end_hour, start_date, end_date = [
             m.group(i) for i in range(1, 7)
         ]
-        results = generate_dates(end_date, end_hour, start_date, start_hour, weekday)
+        results = generate_dates_from_string(
+            end_date, end_hour, start_date, start_hour, weekday
+        )
         results = [
             item
             for item in filter(
@@ -96,13 +134,14 @@ def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
 
 
 def generate_dates(
-    end_date, end_hour, start_date, start_hour, weekday
+    end_date: datetime,
+    end_hour: str,
+    start_date: datetime,
+    start_hour: str,
+    weekday: str,
 ) -> List[TimeRange]:
-    first_day_in_sequence = find_first_date(
-        Weekdays[weekday], chicago.localize(datetime.fromisoformat(start_date))
-    )
-    last_possible_day = chicago.localize(datetime.fromisoformat(end_date))
-    last_possible_day = last_possible_day + timedelta(days=1)
+    first_day_in_sequence = find_first_date(Weekdays[weekday], start_date)
+    last_possible_day = end_date + timedelta(days=1)
     start_tod = strptime(start_hour, "%H%M")
     end_tod = strptime(end_hour, "%H%M")
     return [
@@ -115,6 +154,18 @@ def generate_dates(
             timedelta(days=7),
         )
     ]
+
+
+def generate_dates_from_string(
+    end_date: str, end_hour: str, start_date: str, start_hour: str, weekday: str
+) -> List[TimeRange]:
+    return generate_dates(
+        chicago.localize(datetime.fromisoformat(end_date)),
+        end_hour,
+        chicago.localize(datetime.fromisoformat(start_date)),
+        start_hour,
+        weekday,
+    )
 
 
 def main(season_file, output_directory):
