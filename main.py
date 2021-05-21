@@ -100,7 +100,7 @@ def generate_date_entries_from_pattern(pattern) -> List[TimeRange]:
             end_month_value = Months.January
         else:
             end_month_value = Months(Months[end_month].value + 1)
-        if end_month_value == Months.December or Months[start_month] >= end_month_value:
+        if end_month_value == Months.January or Months[start_month] >= end_month_value:
             year = year + 1
         return generate_dates(
             chicago.localize(datetime(year, end_month_value.value, 1, 0, 0)),
