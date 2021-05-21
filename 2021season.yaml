@@ -8,6 +8,61 @@ Andersonville:
     longitude: -87.6690122
   datePatterns:
     - every Wednesday from 1500 to 1900, 2021-05-12 through 2021-10-20
+Austin:
+  name: Austin Farm Stand
+  url: https://www.chicagobotanic.org/urbanagriculture/markets
+  location:
+    address: 330 N. Lotus Ave.
+    latitude: 41.8867011
+    longitude: -87.7643312
+  datePatterns:
+    - every Tuesday from 1000 to 1200, June through October
+AustinTownHall:
+  name: Austin Town Hall City Market
+  location:
+    latitude: 41.8883017
+    longitude: -87.7679901
+    address: 5610 West Lake Street
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  datePatterns:
+    - every Thursday from 1300 to 1800, 2021-06-10 through 2021-09-30
+BackofYards:
+  name: Back of the Yards Farmers Market
+  url: https://www.starfarmchicago.net/
+  location:
+    address: 5256 S. Ashland
+    latitude: 41.7980679
+    longitude: -87.6670525
+  datePatterns:
+    - every Wednesday from 1500 to 1900, 2021-06-09 through 2021-10-13
+DaleyPlaza:
+  name: Daley Plaza City Market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  location:
+    address: 50 West Washington
+    latitude: 41.8840376
+    longitude: -87.6323175
+  datePatterns:
+    - every Thursday from 0700 to 1400, 2021-05-27 through 2021-09-30
+Englewood:
+  name: Englewood Village Farmers Market
+  url: https://www.growgreater.org/
+  location:
+    address: 5800 S. Halstead
+    latitude: 41.7886954
+    longitude: -87.6474261
+  datePatterns:
+    - every Friday from 1600 to 1900, 2021-07-09 through 2021-10-15
+GarfieldRidge:
+  name: Garfield Ridge Farmers Market
+  url: https://www.garfieldridgecc.com/
+  location:
+    address: 6072 S. Archer Ave.
+    latitude: 41.7949432
+    longitude: -87.7715266
+  datePatterns:
+    - every Wednesday from 1500 to 1900, June through September
+
 GCMLincolnPark:
   name: Green City Market - Lincoln Park
   location:
@@ -45,7 +100,7 @@ LincolnSquareFarmersMarket:
     longitude: -87.687399
   url: http://www.lincolnsquare.org/farmers-market
   datePatterns:
-    - every Tuesday from 0700 to 1300, 2021-05-01 through 2021-10-31
+    - every Tuesday from 0700 to 1300, 2021-05-01 through 2021-11-23
     - every Thursday from 1500 to 1900, 2021-05-01 through 2021-10-31
 LoganSquare:
   name: Logan Square Farmers Market
@@ -56,6 +111,17 @@ LoganSquare:
   url: http://www.logansquarefarmersmarket.org/
   datePatterns:
     - every Sunday from 1000 to 1500, 2021-05-09 through 2021-10-18
+LowLine:
+  name: Low-Line Farmers Market
+  location:
+    address: 3400 N. Southport Ave.
+    latitude: 41.9435859
+    longitude: -87.6663511
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  datePatterns:
+    - every Thursday from 1530 to 1930, June through August
+    - every Thursday from 1500 to 1900, September through October
+
 Nettlehorst:
   name: Chicago Nettlehorst French Market
   location:
@@ -65,6 +131,16 @@ Nettlehorst:
   url: https://www.bensidounusa.com/nettlehorst/
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-07-04 through 2021-10-31
+Pullman:
+  name: Pullman City Market
+  location:
+    address: 11100 S. Cottage Grove Ave.
+    latitude: 41.6929472
+    longitude: -87.6122307
+  url: https://www.chicagofarmersmarketfinder.com/
+  datePatterns:
+    - every Wednesday from 0700 to 1300, July through October
+
 Pilsen:
   name: Pilsen Community Market
   location:
@@ -74,6 +150,25 @@ Pilsen:
   url: https://pilsencommunitymarket.weebly.com/
   datePatterns:
     - every Sunday from 0900 to 1500, 2021-05-23 through 2021-10-31
+Ravenswood:
+  name: Ravenswood Market
+  location:
+    address: 4900 N. Damen
+    latitude: 41.9707614
+    longitude: -87.6818387
+  url: https://www.chicagofarmersmarketfinder.com
+  datePatterns:
+    - every Wednesday from 1600 to 1900, 2021-06-16 through 2021-10-13
+Roseland:
+  name: Roseland City Market
+  location:
+    address: 200 W. 109th St.
+    latitude: 41.6964677
+    longitude: -87.6286626
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  datePatterns:
+    - every Wednesday from 1430 to 1730, 2021-08-25 through 2021-10-13
+
 SixtyFirst:
   name: 61st Street Farmers Market
   location:
@@ -83,6 +178,26 @@ SixtyFirst:
   url: https://experimentalstation.org/market
   datePatterns:
     - every Saturday from 0900 to 1400, 2021-05-15 through 2021-10-31
+
+SouthLoop:
+  name: South Loop Prairie District
+  location:
+    address: 1936 S. Michigan Avenue
+    latitude: 41.8557349
+    longitude: -87.6265801
+  url: http://www.southloopfarmersmarket.com/
+  datePatterns:
+    - every Thursday from 1600 to 2000, 2021-06-17 through 2021-09-30
+
+Uptown:
+  name: Uptown Farmers Market
+  url: https://www.chicagomarket.coop/uptownfarmersmarket
+  datePatterns:
+    - every Wednesday from 1430 to 1900, May through November
+  location:
+    address: 4620 N. Broadway
+    latitude: 41.9658371
+    longitude: -87.6601193
 WickerPark:
   name: Wicker Park Farmers Market
   url: http://www.wickerparkbucktown.com/farmersmarket/farmers-market/
@@ -95,7 +210,6 @@ WickerPark:
 # TODO:
 # - Saint Charles
 # - Didier Farms
-# - Daley Plaza
 # - Willis Tower
 # - Garfield Park Farmers Market
 # - Glencoe French Market
@@ -109,10 +223,8 @@ WickerPark:
 # - Ford city mall farmers market
 # - Youth Farm Farmers Market https://www.chicagobotanic.org/urbanagriculture/youthfarm
 # - City Farm Chicago
-# - Englewood Farmers Market
 # - Eden Place Farmers Market
 # - Plainfield
-# - Pullman
 # - LaFolette Park
 # - Ottawa Farmers Market - https://www.ottawachamberillinois.com/farmers-market
 # - Oak Forest Farmers Market
@@ -120,7 +232,6 @@ WickerPark:
 # - Mokena Farmers Market - CLOSED PERMANENTLY
 # - Tinley Park Farmers Market
 # - West Humboldt Park Farmers Market
-# - Southport Market
 # - Printers Row Farmers Market
 # - North Center Farmers Market
 # - Westfield Old Orchard French Market
@@ -204,7 +315,7 @@ CrystalLake:
     longitude: -88.31756
   url: https://downtowncl.org/annual-events/farmers-market/
   datePatterns:
-    - every Saturday from 0800 to 1300, 2021-06-05 through 2021-09-25
+    - every Saturday from 0800 to 1300, June through September
 Deerfield:
   name: Deerfield Farmers Market
   location:
@@ -222,7 +333,7 @@ DarienFarmersMarket:
     longitude: -87.9569396
   url: https://nfmd.org/il/darien/1009648/
   datePatterns:
-    - every Wednesday from 1500 to 1900, 2021-06-01 through 2021-10-31
+    - every Wednesday from 1500 to 1900, June through October
 DownersGrove:
   name: Downers Grove Farmers Market
   url: https://www.ymcachicago.org/indianboundary/blog/entry/Downtown-Downers-Grove-Market-2020
@@ -242,6 +353,16 @@ Dundee:
   url: https://www.facebook.com/Dundee-Depot-Market-and-Visitors-Center-113123312056926/
   datePatterns:
     - every Saturday from 0800 to 1400, 2021-05-08 through 2021-10-31
+
+Edgewater:
+  name: Edgewater Farmers Market
+  location:
+    address: Broadway Armory, 5917 N. Broadway
+    latitude: 41.986121
+    longitude: -87.6617777
+  url: https://www.edgewater.org/programs/farmers-market/
+  datePatterns:
+    - every Monday from 1500 to 1900, 2021-06-07 through 2021-06-28
 
 ElkGroveFarmersMarket:
   name: Elk Grove Farmers Market
@@ -366,7 +487,7 @@ Kankakee:
   name: Kankakee Farmers Market
   url: https://www.downtownkankakee.com/farmers-market/
   datePatterns:
-    - every Saturday from 0800 to 1200, 2021-05-01 through 2021-10-30
+    - every Saturday from 0800 to 1200, May through October
   location:
     address: Schuyler Ave. and Merchant St., Kankakee, IL
     latitude: 41.1189957
@@ -388,7 +509,7 @@ Lagrange:
     latitude: 41.81237
     longitude: -87.86953
   datePatterns:
-    - every Thursday from 0700 to 1300, 2021-05-01 through 2021-10-31
+    - every Thursday from 0700 to 1300, May through October
 LakeZurich:
   name: Lake Zurich Farmers Market
   location:
@@ -492,7 +613,7 @@ ParkForest:
   name: Park Forest Farmers Market
   url: http://www.villageofparkforest.com/98/Farmers-Market
   datePatterns:
-    - every Saturday from 0700 to 1200, 2021-05-01 through 2021-10-30
+    - every Saturday from 0700 to 1200, May through October
   location:
     address: 271 Lakewood Blvd, Park Forest, IL
     latitude: 41.484496
@@ -550,7 +671,7 @@ SchaumburgFarmersMarket:
     longitude: -88.0805137
   url: https://www.villageofschaumburg.com/our-village/farmers-market
   datePatterns:
-    - every Friday from 0700 to 1300, 2021-06-04 through 2021-10-31
+    - every Friday from 0700 to 1300, June through October
 Skokie:
   name: Skokie Farmers Market
   location:
@@ -566,7 +687,7 @@ WesternSprings:
     latitude: 41.80923
     longitude: -87.90153099999999
   datePatterns:
-    - every Thursday from 0700 to 1400, 2021-05-01 through 2021-10-31
+    - every Thursday from 0700 to 1400, May through October
 Wheaton:
   name: Wheaton French Market
   location:
@@ -593,5 +714,5 @@ Woodstock:
     latitude: 42.31525
     longitude:  -88.447403
   datePatterns:
-    - every Saturday from 0800 to 1300, 2021-04-01 through 2021-10-31
-    - every Tuesday from 0800 to 1300, 2021-05-01 through 2021-09-30
+    - every Saturday from 0800 to 1300, April through October
+    - every Tuesday from 0800 to 1300, May through September
