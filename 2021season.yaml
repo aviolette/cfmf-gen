@@ -44,6 +44,16 @@ DaleyPlaza:
     longitude: -87.6323175
   datePatterns:
     - every Thursday from 0700 to 1400, 2021-05-27 through 2021-09-30
+DivisionStreet:
+  name: Division Street Farmers Market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  location:
+    address: 100 W. Division St.
+    latitude: 41.9039031
+    longitude: -87.6336243
+  datePatterns:
+    - every Saturday from 0700 to 1200, 2021-05-15 through 2021-10-30
+
 Englewood:
   name: Englewood Village Farmers Market
   url: https://www.growgreater.org/
@@ -53,6 +63,26 @@ Englewood:
     longitude: -87.6474261
   datePatterns:
     - every Friday from 1600 to 1900, 2021-07-09 through 2021-10-15
+EnglewoodCity:
+  name: Englewood City market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  location:
+    address: Dr. Martin Luther King Jr Roller Skating & Bowling Center
+    latitude: 41.7556892
+    longitude: -87.6569369
+  datePatterns:
+    - every Saturday from 1000 to 1400, 2021-07-17 through 2021-09-18
+
+GarfieldPark:
+  name: Garfield Park Farmers Market
+  url: http://www.gpcommunitycouncil.org/GPCC-Programs/Community-Wellness/Garfield-Park-Neighborhood-Market.html
+  location:
+    address: 135 N. Kedzie
+    latitude: 41.883892
+    longitude: -87.7080217
+  datePatterns:
+    - second Saturday of the month from 1000 to 1400, 2021-06-12 through 2021-10-09
+    - fourth Saturday of the month from 1000 to 1400, 2021-06-12 through 2021-10-23
 GarfieldRidge:
   name: Garfield Ridge Farmers Market
   url: https://www.garfieldridgecc.com/
@@ -82,6 +112,16 @@ Glenwood:
     longitude: -87.6627076
   datePatterns:
     - every Sunday from 0900 to 1400, 2021-06-01 through 2021-10-24
+HornerPark:
+  name: Horner Park Farmers Market
+  url: https://hornerpark.org/farmers-market/
+  location:
+    address: 2741 W. Montrose
+    latitude: 41.960558
+    location: -87.699899
+  datePatterns:
+    - every Saturday from 0900 to 1300, 2021-06-05 through 2021-10-02
+
 JeffersonPark:
   name: Jefferson Park SUnday Market
   location:
@@ -92,6 +132,15 @@ JeffersonPark:
   datePatterns:
     - second Sunday of the month from 0930 to 1330, 2021-06-01 through 2021-10-31
     - fourth Sunday of the month from 0930 to 1330, 2021-06-01 through 2021-10-31
+LincolnPark:
+  name: Lincoln Park Farmers Market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  location:
+    address: 2001 N. Orchard St.
+    latitude: 41.9193958
+    longitude: -87.6477371
+  datePatterns:
+    - every Saturday from 0700 to 1300, May through November
 LincolnSquareFarmersMarket:
   name: Lincoln Square Farmers Market
   location:
@@ -121,7 +170,25 @@ LowLine:
   datePatterns:
     - every Thursday from 1530 to 1930, June through August
     - every Thursday from 1500 to 1900, September through October
-
+MercadoDeColores:
+  name: Mercado de Colores
+  location:
+    address: Manuel Perez Memorial Plaza, 4345 W. 26th St.
+    latitude: 41.8439184
+    longitude: -87.7350928
+  url: https://www.mercadodecoloreslavillita.org/
+  datePatterns:
+    - every Saturday from 1100 to 1500, 2021-05-29 through 2021-09-25
+MotherMcCauley:
+  name: Mother McCauley MAC Market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  location:
+    address: 3737 W. 99th St.
+    latitude: 41.7124512
+    longitude: -87.7184498
+  datePatterns:
+    - second Saturday of the month from 0900 to 1400, 2021-06-12 through 2021-09-11
+    - fourth Saturday of the month from 0900 to 1400, 2021-06-26 through 2021-09-25
 Nettlehorst:
   name: Chicago Nettlehorst French Market
   location:
@@ -130,7 +197,36 @@ Nettlehorst:
     longitude: -87.644431
   url: https://www.bensidounusa.com/nettlehorst/
   datePatterns:
-    - every Saturday from 0800 to 1400, 2021-07-04 through 2021-10-31
+    - every Saturday from 0800 to 1400, April through October
+95thStreet:
+  name: 95th Street Farmers Market
+  url: http://95thstreetba.org/farmers-market/
+  location:
+    address: 1835 W. 95th St.
+    latitude: 41.7208646
+    longitude: -87.6712083
+  datePatterns:
+    - every Sunday from 0800 to 1300, May through October
+
+NorthCenter:
+  name: NorthCenter Farmers Market
+  url: https://www.northcenterchamber.com/northcenter-farmers-market
+  location:
+    address: NorthCenter Town Square, 4100 N. Damen Ave.
+    latitude: 41.9561235
+    longitude: -87.6813363
+  datePatterns:
+    - every Saturday from 0800 to 1300, June through October
+PlantChicago:
+  name: Plant Chicago Farmers Market
+  location:
+    address: Davis Square Park
+    latitude: 41.813024
+    longitude: -87.6697209
+  url: https://www.plantchicago.org/farmers-market
+  datePatterns:
+    - every Saturday from 1100 to 1500, 2021-06-05 through 2021-11-13
+
 Pullman:
   name: Pullman City Market
   location:
@@ -198,6 +294,15 @@ Uptown:
     address: 4620 N. Broadway
     latitude: 41.9658371
     longitude: -87.6601193
+WestHumbolt:
+  name: West Humboldt Park City Market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  datePatterns:
+    - every Saturday from 1000 to 1400, 2021-06-05 through 2021-10-09
+  location:
+    address: 3601 W. Chicago Ave.
+    latitude: 41.8951117
+    longitude: -87.7189308
 WickerPark:
   name: Wicker Park Farmers Market
   url: http://www.wickerparkbucktown.com/farmersmarket/farmers-market/
@@ -211,14 +316,12 @@ WickerPark:
 # - Saint Charles
 # - Didier Farms
 # - Willis Tower
-# - Garfield Park Farmers Market
 # - Glencoe French Market
 # - Chicago Botanic
 # - LongGrove
 # - COLLEGE OF LAKE COUNTY FARMERS MARKET
 # - Brdigeport Farmers Market
 # - Evanston west end ethnic market
-# - Division Street Farmers Market
 # - Lafolette Park farmers market
 # - Ford city mall farmers market
 # - Youth Farm Farmers Market https://www.chicagobotanic.org/urbanagriculture/youthfarm
@@ -231,7 +334,6 @@ WickerPark:
 # - Winnetka / Northfield Farmers Market
 # - Mokena Farmers Market - CLOSED PERMANENTLY
 # - Tinley Park Farmers Market
-# - West Humboldt Park Farmers Market
 # - Printers Row Farmers Market
 # - North Center Farmers Market
 # - Westfield Old Orchard French Market
