@@ -35,6 +35,16 @@ BackofYards:
     longitude: -87.6670525
   datePatterns:
     - every Wednesday from 1500 to 1900, 2021-06-09 through 2021-10-13
+Bronzeville:
+  name: Bronzeville City Market
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  location:
+    address: 4700 S. King Dr.
+    latitude: 41.8092148
+    longitude: -87.6193298
+  datePatterns:
+    - every Sunday from 1000 to 1400, 2021-07-11 through 2021-09-26
+
 DaleyPlaza:
   name: Daley Plaza City Market
   url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
@@ -121,7 +131,15 @@ HornerPark:
     location: -87.699899
   datePatterns:
     - every Saturday from 0900 to 1300, 2021-06-05 through 2021-10-02
-
+HydePark:
+  name: Hyde Park Farmers Market
+  url: https://www.facebook.com/hydeparkchicagofarmersmarket/
+  location:
+    address: 1516-1528 E. 54th St.
+    latitude: 41.798277
+    longitude: -87.5905117
+  datePatterns:
+    - every Sunday from 0800 to 1400, 2021-06-16 through 2021-09-26
 JeffersonPark:
   name: Jefferson Park SUnday Market
   location:
@@ -240,12 +258,23 @@ Pullman:
 Pilsen:
   name: Pilsen Community Market
   location:
-    address: 18th and Halsted, Chicago, IL
-    latitude: 41.858092
-    longitude: -87.646637
+    address: 1821 South Blue Island Avenue
+    latitude: 41.8572952
+    longitude: -87.663841
   url: https://pilsencommunitymarket.weebly.com/
   datePatterns:
-    - every Sunday from 0900 to 1500, 2021-05-23 through 2021-10-31
+    - every Sunday from 0900 to 1500, 2021-05-30 through 2021-10-31
+
+PortagePark:
+  name: Portage Park Farmers Market
+  location:
+    address: 5353 W. Irving Park Road
+    latitude: 41.9530179
+    longitude: -87.7638958
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  datePatterns:
+    - first Sunday of the month from 1000 to 1400, 2021-06-06 through 2021-10-03
+    - third Sunday of the month from 1000 to 1400, 2021-06-20 through 2021-09-19
 Ravenswood:
   name: Ravenswood Market
   location:
@@ -255,6 +284,15 @@ Ravenswood:
   url: https://www.chicagofarmersmarketfinder.com
   datePatterns:
     - every Wednesday from 1600 to 1900, 2021-06-16 through 2021-10-13
+RoscoeVillage:
+  name: Roscoe Village Farmers Market
+  location:
+    address: Jahn Elementary, 3149 N. Wolcott Ave
+    latitude: 41.9391664
+    longitude: -87.6775766
+  url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
+  datePatterns:
+    - every Sunday from 0930 to 1400, 2021-06-13 through 2021-10-17
 Roseland:
   name: Roseland City Market
   location:
@@ -294,6 +332,17 @@ Uptown:
     address: 4620 N. Broadway
     latitude: 41.9658371
     longitude: -87.6601193
+
+VeganParadise:
+  name: Vegan Paradise Farmers Market
+  location:
+    address: The Plant, 1400 W. 46th St.
+    latitude: 41.8106479
+    longitude: -87.663274
+  url: https://www.insidetheplant.com/
+  datePatterns:
+    - every Sunday from 1100 to 1500, April through October
+
 WestHumbolt:
   name: West Humboldt Park City Market
   url: https://www.chicago.gov/city/en/depts/dca/supp_info/markets.html
