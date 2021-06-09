@@ -174,16 +174,17 @@ def main(season_file, output_directory):
 
     with open(season_file, "r") as file:
         data = load(file, Loader=Loader)
-        for _, v in data.items():
+        for _, market in data.items():
             entries = []
-            for pattern in v["datePatterns"]:
+            for pattern in market["datePatterns"]:
                 entries += generate_date_entries_from_pattern(pattern)
             for entry in entries:
-                v["startTime"] = entry.start_time.strftime("%H%M")
-                v["endTime"] = entry.end_time.strftime("%H%M")
-                v["startTimeReadable"] = entry.start_time.strftime("%I:%M %p")
-                v["endTimeReadable"] = entry.end_time.strftime("%I:%M %p")
-                day_dict[str(entry.date())].append(v)
+                market_copy = market.copy()
+                market_copy["startTime"] = entry.start_time.strftime("%H%M")
+                market_copy["endTime"] = entry.end_time.strftime("%H%M")
+                market_copy["startTimeReadable"] = entry.start_time.strftime("%I:%M %p")
+                market_copy["endTimeReadable"] = entry.end_time.strftime("%I:%M %p")
+                day_dict[str(entry.date())].append(market_copy)
 
     for the_date, items in day_dict.items():
         json_data = {"date": the_date, "data": items}
